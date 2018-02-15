@@ -28,3 +28,7 @@ function addProjectDetails(e) {
 
 	console.log("User clicked on project " + idNumber);
 }
+
+$.get("http://URL", callBackFn)
+
+$.post("http://URL", {"json":"json"}, callBackFn)	
